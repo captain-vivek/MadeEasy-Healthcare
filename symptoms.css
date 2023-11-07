@@ -1,0 +1,166 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    
+    /* background: linear-gradient(to right, rgb(4, 147, 172), rgb(7, 10, 177)); */
+    /* background-image: url('backgroundimg3.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+    background-image: url('back.jpg');
+    background-size:cover;
+    /* font-family: 'Segoe UI Light'; */
+    background-attachment: fixed;
+     background-repeat: no-repeat;
+    height: 100vh;
+    width: 100%;
+  }
+  #myVideo {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+  }
+  .container{
+    height: 100%;
+    width: 100%;
+  }
+  
+  h2 {
+    font-family: Open Sans;
+  font-size: 48px;
+  font-weight: bold;
+  color: #06f8ec;
+  text-align: center;
+  text-shadow: 0px 0px 5px #ccc;
+  animation: letter-by-letter 2s;
+  }
+  
+  input, button {
+    margin-top: 25px;
+    margin-left: 60px;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    
+  }
+  input[type="submit"] {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    background:linear-gradient(to bottom, #6cdefa, #0400f1);;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #000000;
+    padding: 10px;
+    margin-left: 47%;
+  }
+  input:hover, button:hover {
+    background: linear-gradient(to bottom, #CCEEFF, #F7F7F7);
+    color: #000000;
+  }
+  
+  button {
+    cursor: pointer;
+   
+  }
+
+  .symptom{
+   
+    height: 50px;
+    width: 300px;
+    background: linear-gradient(to bottom, #CCEEFF, #F7F7F7);
+    border-radius: 40px;
+    font-size: 25px;
+    font-family: Open Sans;
+    font-weight: bold;
+  }
+
+  .symptom:hover{
+    background: black;
+    color: #CCEEFF;
+    border: 2px solid #fff9f9;
+  }
+  .symptoms-container{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 110px;
+    margin-top: 30px;
+    height: fit-content;
+  }
+  .box{
+    display: flex;
+    margin-top: 15px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    justify-content: center;
+  }
+  
+  #diagnosis,
+  #recommendation-text{
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 50px;
+    
+  }
+  
+  /*#diagnosis {
+    color: rgb(232, 252, 232);
+    background-color: #9e070f;
+  }
+  
+  #recommendation-text {
+    color: rgb(236, 236, 243);
+    background-color: #458f09;
+  }*/
+
+  .popup{
+    /* scroll-margin: 100vh; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 25px;
+    border: 5px solid #584545;
+    /* height: 30vh; */
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    background:rgb(141, 128, 128)
+  }
+
+  .city{
+    margin-left: 50%;
+    margin-top: 0%;
+    text-align: center;
+    position: relative;
+    right: 25vw;
+    top: 5vh;
+    
+  }
+
+  #city-select{
+    width: 200px;
+    height: 50px;
+    background-color: #bbafaf;
+    font-size: larger;
+  }
+  #map-link{
+    color: white;
+  }
+  #map-iframe {
+    width: 100%;
+    height: 200px;
+  }

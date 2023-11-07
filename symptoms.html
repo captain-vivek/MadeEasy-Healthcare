@@ -1,0 +1,82 @@
+<!-- code by Vivek Dange -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Symptoms</title>
+    <link href="symptoms.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+      <!-- <video id="myVideo" loop muted autoplay>
+        <source src="https://www.youtube.com/watch?v=GporpcgO310" type="video/mp4">
+      </video> -->
+      <form action="/symptoms" method="post" id="symptomTracker">
+        
+            <h2>Select your symptoms</h2>
+          
+            <div class="symptoms-container">
+              <div class="box">
+                <div class="symptom">
+                  <input type="checkbox" name="symptoms[]" value="fever"> Fever
+                </div>
+                <div class="symptom">
+                  <input type="checkbox" name="symptoms[]" value="cough"> Cough
+                </div>
+                <div class="symptom">
+                  <input type="checkbox" name="symptoms[]" value="runny nose"> Runny nose
+                </div>
+                <div class="symptom">
+                  <input type="checkbox" name="symptoms[]" value="sore throat"> Sore throat
+                </div>
+                <div class="symptom">
+                  <input type="checkbox" name="symptoms[]" value="headache"> Headache
+                </div>
+              </div>
+              <div class="box">
+                <div class="symptom">
+                  <input type="checkbox" name="symptoms[]" value="body aches"> Body aches
+                </div>
+                <div class="symptom">
+                  <input type="checkbox" name="symptoms[]" value="fatigue"> Fatigue
+                </div>
+                <div class="symptom">
+                  <input type="checkbox" name="symptoms[]" value="nausea"> Nausea
+                </div>
+                <div class="symptom">
+                  <input type="checkbox" name="symptoms[]" value="vomiting"> Vomiting
+                </div>
+                <div class="symptom">
+                  <input type="checkbox" name="symptoms[]" value="diarrhea"> Diarrhea
+                </div>
+              </div>
+            </div>
+          
+            
+            <div class="popup">
+              <div id="diagnosis"></div>
+              <div id="recommendation-text"></div>
+            </div>
+            <input type="submit" value="Submit">
+
+            <div class="city">
+              <select id="city-select">
+                <option value="near sinhgad college">Near Sinhgad College</option>
+                <option value="katraj">Katraj</option>
+                <option value="kothrud">Kothrud</option>
+                <option value="shivajinagar">Shivajinagar</option>
+                <option value="Viman nagar">Viman Nagar</option>
+                <option value="Nigdi">Nigdi</option>
+                <option value="Pimpri-chinchwad">pimpri</option>
+              </select>
+              <a id="map-link" href="#">Search Hospitals</a>
+            </div>
+            
+            
+          </form>
+    </div>
+  <script src="script1.js"></script>  
+</body>
+</html>

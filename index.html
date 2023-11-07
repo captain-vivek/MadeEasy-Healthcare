@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medeasy</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <!-- <div id="menu-bar" class="fas fa-bars"></div> -->
+
+
+
+
+        <a href="http://127.0.0.1:5500/final_Project/index.html#home" class="logo"> <img src="logo.jpg" class="logo">
+            <div class="title"><span>Med</span>easy</div>
+        </a>
+
+        <!-- <i class="fas fa-search" id="search-input"></i> -->
+        <!-- <div class="tooltip">Make Medication easy</div> -->
+
+
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#About Us">About Us</a>
+            <a href="#Prescription">Prescription</a>
+            <a href="#services">services</a>
+            <a href="#contact">contact Us</a>
+        </nav>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- home section starts  -->
+
+
+    <section class="home" id="home">
+        <!-- <div class="video-container">
+        <img src="home_img.jpg" id="video-slider" >
+    </div> -->
+        <div class="content">
+            <h3>Health Comes First</h3>
+            <p class="slogan">Your health is an investment, not an expense.</p>
+            <a href="#About Us" class="btn">Let's Cure</a>
+        </div>
+
+
+    </section>
+
+    <!-- home section ends -->
+
+    <!-- AboutUs section starts  -->
+
+
+
+
+
+    <!-- <div class="row">
+        <h4>
+            Welcome to MedEASY, where healthcare meets convenience. We are dedicated to revolutionizing the way
+            individuals access medical advice and prescriptions. Our platform bridges the gap between patients and
+            healthcare professionals, making quality healthcare accessible to everyone, anytime, anywhere.At Medeasy,
+            our mission is to provide a seamless and efficient healthcare experience for individuals seeking medical
+            guidance. We aim to empower both patients and doctors by offering a reliable platform for consultations,
+            diagnosis, and prescription services.
+        </h4>
+
+
+    </div> -->
+    <section class="aboutUs" id="About Us">
+        <h1 class="heading">
+            <span>A</span>
+            <span>b</span>
+            <span>o</span>
+            <span>u</span>
+            <span>t</span>
+            <span class="space"></span>
+
+            <span>U</span>
+            <span>s</span>
+        </h1>
+        <div class="content">
+            <div class="notice-board">
+                <div class="notice-content">
+                    
+                    <p> Welcome to MedEASY, where healthcare meets convenience. We are dedicated to revolutionizing the way</p>
+                    <p>individuals access medical advice and prescriptions. Our platform bridges the gap between patients and</p>
+                    <p>healthcare professionals, making quality healthcare accessible to everyone, anytime, anywhere.At Medeasy,</p>
+                    <p>our mission is to provide a seamless and efficient healthcare experience for individuals seeking medical</p>
+                    <p>guidance. We aim to empower both patients and doctors by offering a reliable platform for consultations,</p>
+                    <p>diagnosis, and prescription services.</p>
+                    <!-- Add more lines of text as needed -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- AboutUs section ends -->
+
+
+
+
+    <!-- services section starts  -->
+
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>h</span>
+            <span>e</span>
+            <span>a</span>
+            <span>l</span>
+            <span>t</span>
+            <span>h</span>
+            <br>
+            <span>G</span>
+            <span>u</span>
+            <span>a</span>
+            <span>r</span>
+            <span>d</span>
+            <span>i</span>
+            <span>a</span>
+            <span>n</span>
+
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="img.jpg">
+                <h3>Track Your Symptoms</h3>
+                <p>Click below to check Your Symptoms</p>
+                <div class="intro">
+
+                    <div class="qr-footer">
+                        <a id="generateBtn" onclick="goToPage('symptoms.html')" name="Submit">Check</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- services section ends -->
+
+    <!-- prescription section starts  -->
+
+    <section class="prescription" id="Prescription">
+
+        <h1 class="heading">
+            <span>p</span>
+            <span>r</span>
+            <span>e</span>
+            <span>s</span>
+            <span>c</span>
+            <span>r</span>
+            <span>i</span>
+            <span>p</span>
+            <span>t</span>
+            <span>i</span>
+            <span>o</span>
+            <span>n</span>
+
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img class="prescImg" src="img2.jpg">
+                <h3>Make Your own Prescription</h3>
+                <p>Click below to create your prescription</p>
+                <div class="intro">
+                    <div class="qr-footer">
+                        <!-- <a  id="generateBtn" onclick="goToPage('Prescription/prescription.html')"  name="Submit" >Make Prescription</a> -->
+                        <a id="generateBtn" onclick="goToPage('prescription.php')" name="Submit">Make Prescription</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- prescription section ends -->
+
+    <!-- contact section starts  -->
+
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="support-img.png">
+            </div>
+
+            <form method="post" name="google-sheet">
+                <div class="inputBox">
+                    <input type="text" placeholder="name" name="name">
+                    <input type="email" placeholder="email" name="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number" name="number">
+                    <input type="text" placeholder="subject" name="subject">
+                </div>
+                <textarea placeholder="message" name="message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message" name="message">
+            </form>
+
+        </div>
+
+    </section>
+
+    <!-- contact section ends -->
+
+    <!-- footer section  -->
+
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>about us</h3>
+                <p>Welcome To MedEASY, Where Healthcare Meets Convenience. We Are Dedicated To Revolutionizing The Way
+                    Individuals Access Medical Advice And Prescriptions. Our Platform Bridges The Gap Between Patients
+                    And Healthcare Professionals, Making Quality Healthcare Accessible To Everyone, Anytime, Anywhere.
+                </p>
+            </div>
+            <div class="box">
+                <h3>branch locations</h3>
+                <a href="https://en.wikipedia.org/wiki/Pune">Pune</a>
+
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home">home</a>
+                <a href="#About Us">About Us</a>
+                <a href="#Prescription">Prescription</a>
+                <a href="#services">services</a>
+                <a href="#contact">contact</a>
+            </div>
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#">facebook</a>
+                <a
+                    href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="https://www.linkedin.com/in/vivek-dange-303190274/">linkedin</a>
+            </div>
+
+        </div>
+
+        <h1 class="credit"> created by <span> Vivek Dange and Pooja Gawali</span> | all rights reserved! </h1>
+
+    </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!--  js file link  -->
+    <script src="script.js"></script>
+    <div id="places-list"></div>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby68_l4XZVWwzLXIFsHJ02t9yF9eHc3wDYXGg5LTJ9lIu-aSDGLI9qEHJ0hqYDwE9H5/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+
+</body>
+
+</html>
